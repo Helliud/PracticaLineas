@@ -1,0 +1,21 @@
+﻿<Window x:Class="PracticaLineas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaLineas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Polyline Name="plnLinea" StrokeThickness="5" Stroke="Brown"></Polyline>
+        <Polyline Name="plnLinea2" StrokeThickness="5" Stroke="Red"></Polyline>
+        <Polyline Name="Ventana" Stroke="Blue" StrokeThickness="3"></Polyline>
+        <Polyline Name="Puerta" Stroke="BurlyWood" StrokeThickness="3"></Polyline>
+        <Polyline Name="Tronco" Stroke="SaddleBrown" StrokeThickness="5"></Polyline>
+        <Polyline Name="Hojas" Stroke="Green" StrokeThickness="5"></Polyline>
+        <Polyline Name="pasto1" Stroke="Green" StrokeThickness="5"></Polyline>
+        <Polyline Name="pasto2" Stroke="Green" StrokeThickness="5"></Polyline>
+        <Polyline Name="pasto3" Stroke="Green" StrokeThickness="5"></Polyline>
+
+    </Grid>
+</Window>
